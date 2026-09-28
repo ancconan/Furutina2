@@ -2,11 +2,13 @@ a = int(input())
 if a>0: print("Число", a, "положительное")
 else: print("Число", a, "отрицательное")
 
+
 b = int(input())
 c = int(input())
 if b>c: print(b,"большее")
 elif c>b: print(c,"большее")
 else: print(b,"равно",c)
+
 
 a = int(input())
 b = int(input())
